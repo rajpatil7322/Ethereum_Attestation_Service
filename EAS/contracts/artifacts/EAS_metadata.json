@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {
+				"retrieve()": {
+					"details": "Return value ",
+					"returns": {
+						"_0": "value of 'number'"
+					}
+				},
+				"store(uint256)": {
+					"details": "Store value in variable",
+					"params": {
+						"num": "value to store"
+					}
+				}
+			},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_Storage.sol": "EAS"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@ethereum-attestation-service/eas-contracts/contracts/Common.sol": {
+			"keccak256": "0x957bd2e6d0d6d637f86208b135c29fbaf4412cb08e5e7a61ede16b80561bf685",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://da1dc9aedbb1d4d39c46c2235918d3adfbc5741dd34a46010cf425d134e7936d",
+				"dweb:/ipfs/QmWUk6bXnLaghS2riF3GTFEeURCzgYFMA5woa6AsgPwEgc"
+			]
+		},
+		"@ethereum-attestation-service/eas-contracts/contracts/IEAS.sol": {
+			"keccak256": "0xd5a192f0bcee5372b69b0bb746c26317a2691dd10bfa52adbd08a9b723a55036",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ca836dd01016e7198a0b8e9e79d78512eb9db86dde6afd47f727f18d9a9c33a1",
+				"dweb:/ipfs/QmXLTzcLUvA52qpVRUtVvj6L73cTmHk62jGsf6JErXFxD4"
+			]
+		},
+		"@ethereum-attestation-service/eas-contracts/contracts/ISchemaRegistry.sol": {
+			"keccak256": "0x772b1ebcf3e5c93fecb53762e11bbdae75fcb667deea4ac21134fccfe78326e4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://734ea6ab1e3bea7d8e0d478731c3b8888347ec01601d66d3072398b8984e8517",
+				"dweb:/ipfs/QmQHZM7USiV88SUucWV7wwCpURv98dDngtFcsEaEnFwdtp"
+			]
+		},
+		"@ethereum-attestation-service/eas-contracts/contracts/resolver/ISchemaResolver.sol": {
+			"keccak256": "0xb74b64e20b90b35004750d2c78ceb114a304975d22d71bd9a2a9de0d483f0395",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0d0a30499e28e7c4ed62f2d8a88c46623c96830cc23e04ce6e9cd0cd0b11a03d",
+				"dweb:/ipfs/QmYWNWu1cn7XDSaFgiMyn2L2coud3DNiGoNrNNo8QYcdyC"
+			]
+		},
+		"contracts/1_Storage.sol": {
+			"keccak256": "0x8e8de49e8ac59742000383065255e6cd696831b129fa021ab89a2c1bf1fa8846",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1ba3da97085260745d1f57fd4560fe3ce5d58e725dd19e7c8e45296181efba32",
+				"dweb:/ipfs/QmaPW4x6QspZUN5RWnyLrVNsWYeAVDX8dJicqEL9oKywmv"
+			]
+		}
+	},
+	"version": 1
+}
